@@ -6,3 +6,5 @@ http://192.168.0.2/web/about
 http://192.168.0.2/web/deviceinfo
 http://192.168.0.2/web/getcurrlocation
 http://192.168.0.2/web/vol?set=down
+
+ftp://192.168.0.2/etc/tuxbox/config/oscam.server
