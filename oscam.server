@@ -1,0 +1,27 @@
+[reader]
+label = reader0
+protocol = internal
+device = /dev/sci0
+group = 1
+
+[reader]
+label = reader1
+protocol = internal
+device = /dev/sci1
+group = 1
+
+[reader]
+label = remote
+protocol = cccam
+device = ip,port
+account = username,password
+group = 1
+cccversion = 2.2.1
+ccckeepalive = 1
+audisabled = 1
+
+[reader]
+label = cw
+protocol = constcw
+device = /usr/keys/constant.cw
+group = 1
