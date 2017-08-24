@@ -10,4 +10,4 @@ http://192.168.0.2/web/getcurrlocation
 http://192.168.0.2/web/vol?set=down
 
 ## OSCAM位置
-ftp://10.0.0.1/etc/tuxbox/config/oscam.server
+ftp://192.168.0.2/etc/tuxbox/config/oscam.server
