@@ -4,6 +4,13 @@
 
 /web/timerlistwrite?write=saveWriteNow
 
+var xmldoc=loadXML(text.xml)
+var elements = xmlDoc.getElementsByTagName("Company");
+for (var i = 0; i < elements.length; i++) {
+  var name = elements[i].getElementsByTagName("cNname")[0].firstChild.nodeValue;
+  var ip = elements[i].getElementsByTagName("cIP")[0].firstChild.nodeValue;               
+}
+
 ## 接口文档 (Eng)
 http://dream.reichholf.net/wiki/Enigma2:WebInterface
 
